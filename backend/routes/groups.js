@@ -18,6 +18,11 @@ router.post('/', authenticateToken, async (req, res) => {
         data: {
           name,
           createdBy: req.user.id,
+        },
+        include: {
+          creator: {
+            select: { id: true, name: true, email: true }
+          }
         }
       });
 

@@ -197,7 +197,7 @@ export default function Dashboard() {
                       {group.name}
                     </h4>
                     <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                      Created by {group.creator.name}
+                      Created by {group.creator?.name || 'You'}
                     </p>
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
