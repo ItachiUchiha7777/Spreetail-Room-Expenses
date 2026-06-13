@@ -1,0 +1,8 @@
+{
+  "name": "flatmate-expenses-workspace",
+  "version": "1.0.0",
+  "description": "Workspace root for Shared Flatmate Expenses App",
+  "scripts": {
+    "dev": "node start.js"
+  }
+}
