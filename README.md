@@ -84,3 +84,19 @@ cd backend
 node testAnomalyDetector.js
 ```
 All tests should return `[PASS]` and confirm zero error flags.
+
+---
+
+## AI Prompts Log
+
+Below are the development and audit prompts used for building and testing this application:
+
+1. **Scaffold & Architecture Setup**
+   > "Scaffold planning for Node + Express backend + React Frontend + Prisma PostgreSQL."
+2. **CSV Import Anomaly Detection Rules**
+   > "Setup 22 anomaly detection rules with exact specifications for `auto_handled` vs `requires_approval` modes."
+3. **Debt Simplification Engine**
+   > "Implement greedy debt-simplification algorithm for net group balances."
+4. **Import Report & Log Documentation**
+   > "Please share the file Import report — produced by your app when it ingests the CSV, listing every anomaly detected and the action taken as per the  Assignment Task shared in the Drive notice ? and also write all my prompts in readme.md and all"
+

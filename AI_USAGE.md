@@ -8,6 +8,7 @@ This log documents the AI tools utilized, key prompts, and specific cases where 
   - Scaffold planning for Node + Express backend + React Frontend + Prisma PostgreSQL.
   - Setup 22 anomaly detection rules with exact specifications for `auto_handled` vs `requires_approval` modes.
   - Implement greedy debt-simplification algorithm for net group balances.
+  - Please share the file Import report — produced by your app when it ingests the CSV, listing every anomaly detected and the action taken as per the Assignment Task shared in the Drive notice? and also write all my prompts in readme.md and all.
 
 ---
 
